@@ -1,5 +1,5 @@
 mb_recipe :aptitude do
-  during :provision, %w[check upgrade install]
+  during :provision, %w[upgrade install]
 end
 
 namespace :mb do
